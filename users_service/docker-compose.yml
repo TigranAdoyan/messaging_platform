@@ -1,0 +1,89 @@
+
+
+services:
+  backend:
+    image: backend
+    build: .
+    ports:
+      - 3335:3335
+      - 3334:3334
+    environment:
+      NODE_ENV: development
+      EXPRESS_PORT: 3335
+      SOCKET_PORT: 3334
+      JWT_SECRET: jwt_secret
+      REDIS_HOST: redis://host.docker.internal
+      REDIS_PORT: 6379
+      REDIS_CLUSTER_NODE_1_HOST: redis-node-1
+      REDIS_CLUSTER_NODE_1_PORT: 6321
+      REDIS_CLUSTER_NODE_2_HOST: redis-node-2
+      REDIS_CLUSTER_NODE_2_PORT: 6322
+      REDIS_CLUSTER_NODE_3_HOST: redis-node-3
+      REDIS_CLUSTER_NODE_3_PORT: 6323
+      REDIS_PASSWORD: password
+      MYSQL_MESSENGER_HOST: host.docker.internal
+      MYSQL_MESSENGER_PORT: 3306
+      MYSQL_MESSENGER_DATABASE: messenger
+      MYSQL_MESSENGER_USER: user
+      MYSQL_MESSENGER_PASSWORD: password
+      MONGO_MESSENGER_URL: mongodb://host.docker.internal:27017/messenger
+
+  redis-cluster:
+    image: redis:alpine
+    command:
+      redis-cli --cluster create 172.50.0.31:6321 172.50.0.32/6332 172.50.0.33/6333 --cluster-replicas 1 --cluster-yes
+    networks:
+      app-subnet:
+        ipv4_address: 172.50.0.30
+    depends_on:
+      - redis-node-1
+      - redis-node-2
+      - redis-node-3
+
+  redis-node-1:
+    image: redis:alpine
+    command: redis-server /usr/local/etc/redis/redis.conf
+    ports:
+      - 6321:6321
+    volumes:
+      - redis-node-1-data:/var/lib/redis
+      - ./redis_cluster_conf/node_1.conf:/usr/local/etc/redis/redis.conf
+    networks:
+      app-subnet:
+        ipv4_address: 172.50.0.31
+
+  redis-node-2:
+    image: redis:alpine
+    command: redis-server /usr/local/etc/redis/redis.conf
+    ports:
+      - 6322:6322
+    volumes:
+      - redis-node-2-data:/var/lib/redis
+      - ./redis_cluster_conf/node_2.conf:/usr/local/etc/redis/redis.conf
+    networks:
+      app-subnet:
+        ipv4_address: 172.50.0.32
+
+  redis-node-3:
+    image: redis:alpine
+    command: redis-server /usr/local/etc/redis/redis.conf
+    ports:
+      - 6323:6323
+    volumes:
+      - redis-node-3-data:/var/lib/redis
+      - ./redis_cluster_conf/node_3.conf:/usr/local/etc/redis/redis.conf
+    networks:
+      app-subnet:
+        ipv4_address: 172.50.0.33
+
+volumes:
+  redis-node-1-data:
+  redis-node-2-data:
+  redis-node-3-data:
+
+networks:
+  app-subnet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: "172.50.0.0/24"

@@ -1,0 +1,45 @@
+{
+  "name": "durak_game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "launch": "nodemon --inspect src/index.js",
+    "start": "pm2 start ecosystem.config.json",
+    "restart": "p2m restart ecosystem.config.json",
+    "stop": "pm2 stop ecosystem.config.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@socket.io/admin-ui": "^0.5.1",
+    "@socket.io/redis-adapter": "^7.2.0",
+    "axios": "^1.1.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-router": "^0.0.1",
+    "express-routing": "^0.0.2",
+    "ioredis": "^5.2.3",
+    "joi": "^17.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.6.6",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "node": "^18.11.0",
+    "nodemon": "^2.0.20",
+    "pm2": "^5.2.2",
+    "redis": "^4.3.1",
+    "reflect-metadata": "^0.1.13",
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3",
+    "uuid": "^9.0.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.5.0"
+  }
+}

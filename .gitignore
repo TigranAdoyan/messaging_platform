@@ -1,0 +1,4 @@
+frontend/node_modules
+rest_api_transport/node_modules
+socket_server/node_modules
+users_service/node_modules

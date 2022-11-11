@@ -1,0 +1,98 @@
+version: '3'
+
+services:
+  redis-master:
+    container_name: 'redis-master'
+    image: redis
+    expose:
+      - 6379
+    command: "redis-server /etc/redis-config/redis.conf"
+    volumes:
+      - ./config/master:/etc/redis-config
+      - redis_master_data:/data
+    networks:
+      redis_cluster_net:
+        ipv4_address: 172.20.0.5
+
+  redis-slave-1:
+    container_name: 'redis-slave-1'
+    image: redis
+    expose:
+      - 6379
+    command: "redis-server /etc/redis-config/redis.conf"
+    volumes:
+      - ./config/slave_1:/etc/redis-config
+      - redis_slave_1_data:/data
+    networks:
+      redis_cluster_net:
+        ipv4_address: 172.20.0.6
+    depends_on:
+      - redis-master
+
+  redis-slave-2:
+    container_name: 'redis-slave-2'
+    image: redis
+    expose:
+      - 6379
+    command: "redis-server /etc/redis-config/redis.conf"
+    volumes:
+      - ./config/slave_2:/etc/redis-config
+      - redis_slave_2_data:/data
+    networks:
+      redis_cluster_net:
+        ipv4_address: 172.20.0.7
+    depends_on:
+      - redis-master
+
+  redis-sentinel-1:
+    container_name: 'redis-sentinel-1'
+    image: redis
+    expose:
+      - 26379
+    # command: "redis-server /etc/sentinel.conf --sentinel"
+    command: bash -c "chmod a+wx /etc && redis-server /etc/redis-config/redis.conf --sentinel"
+    volumes:
+      - ./config/sentinel_1:/etc/redis-config
+    networks:
+      redis_cluster_net:
+        ipv4_address: 172.20.0.8
+    depends_on:
+      - redis-master
+      - redis-slave-1
+      - redis-slave-2
+
+  redis-sentinel-2:
+    container_name: 'redis-sentinel-2'
+    image: redis
+    expose:
+      - 26379
+    # command: "redis-server /etc/sentinel.conf --sentinel"
+    command: bash -c "chmod a+wx /etc && redis-server /etc/redis-config/redis.conf --sentinel"
+    volumes:
+      - ./config/sentinel_2:/etc/redis-config
+    networks:
+      redis_cluster_net:
+        ipv4_address: 172.20.0.9
+    depends_on:
+      - redis-master
+      - redis-slave-1
+      - redis-slave-2
+
+volumes:
+  redis_master_data:
+    external: true
+  redis_slave_1_data:
+    external: true
+  redis_slave_2_data:
+    external: true
+
+networks:
+  redis_cluster_net:
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24
+#networks:
+#  redis_cluster_net:
+#    driver: bridge
+#    external: true
+
