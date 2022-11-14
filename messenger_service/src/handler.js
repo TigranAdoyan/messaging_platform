@@ -1,4 +1,4 @@
-const models = require('../../mysql');
+const models = require('../mysql');
 
 module.exports = async function UsersHandler(client) {
    await client.sub({

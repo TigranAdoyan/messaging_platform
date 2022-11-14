@@ -1,4 +1,3 @@
-
 try {
     const {io} = require('socket.io-client');
 
@@ -14,7 +13,7 @@ try {
         transports: ["polling", "websocket"],
         auth: {
             username: "some_username",
-            token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY2ODM1NTM3MH0.LR1HhkvJ9Dd1DCQYVGCbwaZmDYyODKkzi0mX8n_HkOg'
+            token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY2ODQxNzk0OX0.G3PJ41WQEOLYPumTIDhrqBlH3pDBX4aerla_d9F9cx8'
         },
         authConnect: true,
     });
@@ -24,7 +23,7 @@ try {
     socket.emit(events["client:sync_app"]);
 
     socket.on(events["server:sync_app"], data => {
-        console.log(data);
+        console.log(JSON.parse(data));
     });
 } catch (e) {
     console.log(e);
