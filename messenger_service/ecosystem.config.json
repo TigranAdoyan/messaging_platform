@@ -1,0 +1,14 @@
+{
+    "apps": [
+        {
+            "name": "express_server",
+            "script": "./src/express_server.js"
+        },
+        {
+            "name": "socket_server",
+            "script": "./src/socket_server.js",
+            "exec_mode": "cluster",
+            "instances": 2
+        }
+    ]
+}

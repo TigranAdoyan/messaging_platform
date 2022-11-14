@@ -1,0 +1,292 @@
+info: 2022-11-12 21:00:15 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:00:23 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:01:13 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:03:11 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:04:23 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:04:36 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:04:45 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:06:24 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:07:33 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:07:55 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:07:55 => Redis: connected successfully "localhost:6380"
+info: 2022-11-12 21:10:21 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:10:21 => Redis: connected successfully "localhost:6380"
+info: 2022-11-12 21:33:50 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:33:50 => Redis: connected successfully "localhost:6380"
+info: 2022-11-12 21:34:38 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:34:38 => Redis: connected successfully "localhost:6380"
+info: 2022-11-12 21:35:20 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:35:20 => Redis: connected successfully "localhost:6380"
+info: 2022-11-12 21:41:41 => Express: launched successfully PORT => "3335"
+info: 2022-11-12 21:41:41 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 12:34:22 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 12:34:22 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 12:36:14 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 12:36:14 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 12:37:13 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 12:37:13 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 12:48:22 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 12:48:22 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 12:50:22 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 12:50:22 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 12:50:31 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 12:50:31 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 12:52:17 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 12:52:17 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 12:55:35 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 12:55:35 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:32:52 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:32:52 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:37:01 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:37:01 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:37:01 => Nats: Server initialized successfully !
+info: 2022-11-13 13:37:06 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:37:06 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:37:06 => Nats: Client initialized successfully !
+info: 2022-11-13 13:38:54 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:38:54 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:38:54 => Nats: Client initialized successfully !
+info: 2022-11-13 13:39:24 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:39:24 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:40:52 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:40:52 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:40:52 => Nats: Client initialized successfully !
+info: 2022-11-13 13:41:36 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:41:36 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:41:36 => Nats: Client initialized successfully !
+info: 2022-11-13 13:41:48 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:41:48 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:41:48 => Nats: Client initialized successfully !
+info: 2022-11-13 13:42:06 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:42:06 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:42:06 => Nats: Client initialized successfully !
+info: 2022-11-13 13:43:53 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:43:53 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:43:53 => Nats: Client initialized successfully !
+info: 2022-11-13 13:44:05 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:44:05 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:44:05 => Nats: Client initialized successfully !
+info: 2022-11-13 13:44:44 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:44:44 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:44:44 => Nats: Client initialized successfully !
+info: 2022-11-13 13:45:00 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:45:00 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:45:00 => Nats: Client initialized successfully !
+info: 2022-11-13 13:45:16 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:45:16 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:45:16 => Nats: Client initialized successfully !
+info: 2022-11-13 13:46:19 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:46:19 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:46:19 => Nats: Client initialized successfully !
+info: 2022-11-13 13:48:16 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 13:48:16 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 13:48:16 => Nats: Client initialized successfully !
+info: 2022-11-13 14:52:07 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 14:52:07 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 14:52:07 => Nats: Client initialized successfully !
+info: 2022-11-13 14:57:39 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 14:57:39 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 14:57:39 => Nats: Client initialized successfully !
+info: 2022-11-13 14:59:58 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 14:59:59 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 14:59:59 => Nats: Client initialized successfully !
+info: 2022-11-13 15:00:33 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:00:33 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:00:33 => Nats: Client initialized successfully !
+info: 2022-11-13 15:00:35 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:00:35 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:00:35 => Nats: Client initialized successfully !
+info: 2022-11-13 15:01:38 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:01:38 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:01:38 => Nats: Client initialized successfully !
+info: 2022-11-13 15:04:08 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:04:08 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:04:08 => Nats: Client initialized successfully !
+info: 2022-11-13 15:05:14 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:05:14 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:05:14 => Nats: Client initialized successfully !
+info: 2022-11-13 15:09:05 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:09:05 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:09:05 => Nats: Client initialized successfully !
+info: 2022-11-13 15:12:32 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:12:32 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:12:32 => Nats: Client initialized successfully !
+info: 2022-11-13 15:13:09 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:13:09 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:13:09 => Nats: Client initialized successfully !
+info: 2022-11-13 15:15:05 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:15:05 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:15:05 => Nats: Client initialized successfully !
+info: 2022-11-13 15:15:48 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:15:48 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:15:48 => Nats: Client initialized successfully !
+info: 2022-11-13 15:16:22 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:16:22 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:16:22 => Nats: Client initialized successfully !
+info: 2022-11-13 15:17:16 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:17:16 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:17:16 => Nats: Client initialized successfully !
+info: 2022-11-13 15:18:43 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:18:43 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:18:43 => Nats: Client initialized successfully !
+info: 2022-11-13 15:19:58 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:19:58 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:19:58 => Nats: Client initialized successfully !
+info: 2022-11-13 15:20:18 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:20:18 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:20:18 => Nats: Client initialized successfully !
+info: 2022-11-13 15:20:47 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:20:47 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:20:47 => Nats: Client initialized successfully !
+info: 2022-11-13 15:21:07 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:21:07 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:21:07 => Nats: Client initialized successfully !
+info: 2022-11-13 15:22:25 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:22:25 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:22:25 => Nats: Client initialized successfully !
+info: 2022-11-13 15:23:03 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:23:03 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:23:03 => Nats: Client initialized successfully !
+info: 2022-11-13 15:23:06 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:23:06 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:23:06 => Nats: Client initialized successfully !
+info: 2022-11-13 15:25:13 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:25:13 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:25:13 => Nats: Client initialized successfully !
+info: 2022-11-13 15:26:55 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:26:55 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:26:55 => Nats: Client initialized successfully !
+info: 2022-11-13 15:30:47 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:30:47 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:30:47 => Nats: Client initialized successfully !
+info: 2022-11-13 15:31:23 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:31:23 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:31:23 => Nats: Client initialized successfully !
+info: 2022-11-13 15:35:06 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:35:06 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:35:06 => Nats: Client initialized successfully !
+info: 2022-11-13 15:37:51 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:37:51 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:37:51 => Nats: Client initialized successfully !
+info: 2022-11-13 15:38:50 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:38:50 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:38:51 => Nats: Client initialized successfully !
+info: 2022-11-13 15:39:08 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:39:08 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:39:08 => Nats: Client initialized successfully !
+info: 2022-11-13 15:39:25 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:39:25 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:39:25 => Nats: Client initialized successfully !
+info: 2022-11-13 15:39:33 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:39:33 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:39:34 => Nats: Client initialized successfully !
+info: 2022-11-13 15:40:08 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:40:08 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:40:08 => Nats: Client initialized successfully !
+info: 2022-11-13 15:40:36 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 15:40:36 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 15:40:36 => Nats: Client initialized successfully !
+info: 2022-11-13 16:02:30 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:02:30 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:02:30 => Nats: Client initialized successfully !
+info: 2022-11-13 16:02:48 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:02:48 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:02:49 => Nats: Client initialized successfully !
+info: 2022-11-13 16:04:40 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:04:40 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:04:41 => Nats: Client initialized successfully !
+info: 2022-11-13 16:06:19 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:06:19 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:06:19 => Nats: Client initialized successfully !
+info: 2022-11-13 16:20:24 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:20:24 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:20:49 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:20:49 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:20:49 => Nats: Client initialized successfully !
+info: 2022-11-13 16:23:39 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:23:39 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:23:40 => Nats: Client initialized successfully !
+info: 2022-11-13 16:24:42 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:24:42 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:24:42 => Nats: Client initialized successfully !
+info: 2022-11-13 16:25:09 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:25:09 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:25:10 => Nats: Client initialized successfully !
+info: 2022-11-13 16:25:50 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:25:50 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:25:51 => Nats: Client initialized successfully !
+info: 2022-11-13 16:26:08 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:26:08 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:26:09 => Nats: Client initialized successfully !
+info: 2022-11-13 16:26:28 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:26:28 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:26:29 => Nats: Client initialized successfully !
+info: 2022-11-13 16:26:42 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:26:42 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:26:42 => Nats: Client initialized successfully !
+info: 2022-11-13 16:26:44 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:26:44 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:26:44 => Nats: Client initialized successfully !
+info: 2022-11-13 16:26:49 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:26:49 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:26:49 => Nats: Client initialized successfully !
+info: 2022-11-13 16:27:32 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:27:32 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:27:33 => Nats: Client initialized successfully !
+info: 2022-11-13 16:27:50 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:27:50 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:27:51 => Nats: Client initialized successfully !
+info: 2022-11-13 16:28:08 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:28:08 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:28:08 => Nats: Client initialized successfully !
+info: 2022-11-13 16:28:59 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:28:59 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:29:00 => Nats: Client initialized successfully !
+info: 2022-11-13 16:29:11 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:29:11 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:29:12 => Nats: Client initialized successfully !
+info: 2022-11-13 16:29:34 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:29:34 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:29:34 => Nats: Client initialized successfully !
+info: 2022-11-13 16:30:03 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:30:03 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:30:03 => Nats: Client initialized successfully !
+info: 2022-11-13 16:31:01 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:31:01 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:31:01 => Nats: Client initialized successfully !
+info: 2022-11-13 16:32:14 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:32:14 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:32:14 => Nats: Client initialized successfully !
+info: 2022-11-13 16:32:34 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:32:34 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:32:34 => Nats: Client initialized successfully !
+info: 2022-11-13 16:32:38 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:32:38 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:32:39 => Nats: Client initialized successfully !
+info: 2022-11-13 16:34:26 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:34:26 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:34:27 => Nats: Client initialized successfully !
+info: 2022-11-13 16:36:19 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:36:19 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:36:19 => Nats: Client initialized successfully !
+info: 2022-11-13 16:55:50 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 16:55:50 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 16:55:50 => Nats: Client initialized successfully !
+info: 2022-11-13 17:16:20 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 17:16:20 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 17:16:20 => Nats: Client initialized successfully !
+info: 2022-11-13 17:19:30 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 17:19:30 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 17:19:30 => Nats: Client initialized successfully !
+info: 2022-11-13 17:20:26 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 17:20:26 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 17:20:26 => Nats: Client initialized successfully !
+info: 2022-11-13 17:26:11 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 17:26:11 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 17:26:11 => Nats: Client initialized successfully !
+info: 2022-11-13 17:39:40 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 17:39:40 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 17:39:40 => Nats: Client initialized successfully !
+info: 2022-11-13 17:40:49 => Express: launched successfully PORT => "3335"
+info: 2022-11-13 17:40:49 => Redis: connected successfully "localhost:6380"
+info: 2022-11-13 17:40:49 => Nats: Client initialized successfully !

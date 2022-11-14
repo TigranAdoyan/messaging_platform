@@ -83,7 +83,7 @@ function createConnections(tokens) {
 }
 
 function signInUsers(credentials) {
-    return Promise.all(credentials.map((signInData) => axios.post(`http://localhost:${process.env.EXPRESS_PORT}/user/login`, signInData)
+    return Promise.all(credentials.map((signInData) => axios.post(`http://localhost:3335/user/login`, signInData)
         .then(response => response.data.token)))
         .catch(error => {
             console.error(`Error: ${error.response.data.message}`);
