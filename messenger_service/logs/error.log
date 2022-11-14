@@ -86,3 +86,5 @@ error: 2022-11-13 15:38:54 => Http Error Handler: Cannot read properties of unde
 error: 2022-11-13 15:39:11 => Http Error Handler: The "listener" argument must be of type function. Received type string ('=')
 error: 2022-11-13 15:39:26 => Http Error Handler: The "listener" argument must be of type function. Received type string ('=')
 error: 2022-11-13 15:40:10 => Http Error Handler: select `users`.`id`, `users`.`username`, `users`.`email`, `users`.`profile_img_url` from `user_subscribers` left join `users` on `user_subscribers`.`userId` = `users`.`id` or `users`.`userId` = `user_subscribers`.`id` where (`user_subscribers`.`userId` = 1 or (`user_subscribers`.`subscriberId` = 1)) and `users`.`id` <> 1 - Unknown column 'users.userId' in 'on clause'
+error: 2022-11-14 20:09:10 => MongoDb: disconnected mongodb://localhost:27017
+error: 2022-11-14 20:10:47 => MongoDb: disconnected mongodb://localhost:27017/messenger

@@ -1,5 +1,5 @@
 const uuid = require('uuid');
-const authService = require('../services/auth');
+const authService = require('./services/auth');
 
 class Middleware {
     constructor() {
@@ -10,7 +10,6 @@ class Middleware {
             const token = socket.handshake.auth.token;
 
             if (typeof token !== 'string') {
-                console.log('socketIo: invalid token');
                 throw new HttpError('invalid token');
             }
 
@@ -20,8 +19,7 @@ class Middleware {
 
             next();
         } catch (err) {
-            console.log(err.message);
-
+            logger.error(err.message);
             next(err)
         }
     }

@@ -2,9 +2,7 @@ require('./configuration');
 const express = require('express');
 const morgan = require('morgan');
 const rootRouter = require('./routes');
-const initializeNatsClient = require('./nats');
 const {httpCode, HttpError} = require("./cores/HttpError");
-
 
 (async function () {
     global.expressServer = express();
@@ -19,10 +17,6 @@ const {httpCode, HttpError} = require("./cores/HttpError");
 
     expressServer.listen(configs.EXPRESS_PORT, () => {
         logger.info(`Express: launched successfully PORT => "${configs.EXPRESS_PORT}"`);
-    });
-
-    initializeNatsClient().then(() => {
-        logger.info(`Nats: Client initialized successfully !`)
     });
 })();
 

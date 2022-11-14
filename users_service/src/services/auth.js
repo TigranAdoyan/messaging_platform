@@ -19,7 +19,7 @@ module.exports = new (function () {
         }
 
         const tokenPromise = new Promise((resolve, reject) => {
-            jwt.sign({ userId: user.id }, configs.JWT_SECRET, (err, token) => {
+            jwt.sign({ userId: user.id }, configs.JWT_SECRET, {}, (err, token) => {
                 if (err) {
                     reject(err)
                 } else {

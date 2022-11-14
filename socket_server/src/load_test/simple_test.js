@@ -13,7 +13,7 @@ try {
         transports: ["polling", "websocket"],
         auth: {
             username: "some_username",
-            token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY2ODQxNzk0OX0.G3PJ41WQEOLYPumTIDhrqBlH3pDBX4aerla_d9F9cx8'
+            token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY2ODQ1ODI4M30.5Jf1WusfJ4-oH0HnEMQhDB_7g75JLXvlVCUAGhM_ZfY'
         },
         authConnect: true,
     });
@@ -23,7 +23,7 @@ try {
     socket.emit(events["client:sync_app"]);
 
     socket.on(events["server:sync_app"], data => {
-        console.log(JSON.parse(data));
+        console.log(data);
     });
 } catch (e) {
     console.log(e);

@@ -1,19 +1,39 @@
-const models = require('../mysql');
+const {user: userMysql} = require('./mysql');
+const messageMongo = require('./mongo/message');
 
-module.exports = async function UsersHandler(client) {
-   await client.sub({
-       client,
-       topic: 'messenger.sync_data.request',
-       callback: async ({ data }) => {
-           const userId = data.userId;
+module.exports = function(client) {
+    this.sync_data = async function(data) {
+        const userId = data.userId;
 
-           const user = await models.user.findOne({
-               where: {
-                  id: parseInt(userId)
-               }
-           });
+        const user = await userMysql.findOne({
+            where: {
+                id: parseInt(userId)
+            }
+        });
 
-           await client.pub(`messenger.sync_data.response.${userId}`, JSON.stringify(user));
-       }
-   })
+        user.messages = await messageMongo.getMessages(user.id);
+
+        await client.pub(`messenger.response.sync_data.${userId}`, user);
+    };
+
+    this.send_message = async function(data) {
+        const { senderId } = data;
+
+        let receiverId = null;
+
+        while (!receiverId) {
+            const id = Math.ceil(Math.random()*5);
+
+            if (id !== senderId) {
+                receiverId = id;
+            }
+        }
+
+        const message = {
+            senderId,
+            receiverId
+        };
+
+        await client.pub(`messenger.response.send_message.${message.receiverId}`, message);
+    }
 };

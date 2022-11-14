@@ -4,7 +4,7 @@ module.exports = function (connection) {
             where = {},
             select = ['*'],
         } = props;
-        console.log('where', where);
+
         return connection
             .select(...select)
             .from('users')
